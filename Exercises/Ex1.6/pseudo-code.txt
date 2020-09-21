@@ -1,0 +1,7 @@
+1. définir le solde du compte à 10'000 : soldeCompte = 10000
+2. tant que le solde du compte est supérieur ou égal a zéro
+	a. calculer le montant retiré : montantRetire = (soldeCompte/(100/6))/12 + 500
+	b. retirer le montant du solde : soldeCompte - montantRetire
+	c. incrémenter le compteur : nbMois++
+3. Lorsque le solde est inférieur a zéro
+	a. retourner nbMois

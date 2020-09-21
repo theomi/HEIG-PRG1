@@ -1,0 +1,10 @@
+1.  calculer la consommation pour un aller simple
+    a. en voiture : distanceKm*(consommation/100)*prixAuLitre*coutAmortissement
+    b. en train : prixBillet
+
+2. soustraire les deux coûts pour déterminer le plus rentable
+    si coutVoiture - coutTrain > 0
+        le trajet en train est plus rentable
+    sinon
+        le trajet en voiture est plus rentable
+        

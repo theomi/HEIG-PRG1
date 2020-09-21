@@ -2,24 +2,17 @@
 using namespace std;
 
 int main() {
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|    Nom    |     Type     |  Gaz principal  |  Gaz secondaire  |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|  Mercure  |  tellurique  |        -        |        -         |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|   Vénus   |  tellurique  |       CO2       |        N2        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|   Terre   |  tellurique  |       N2        |        O2        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|   Mars    |  tellurique  |       CO2       |        N2        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|  Jupiter  |   gazeuse    |       H2        |        HE        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|  Saturne  |   gazeuse    |       H2        |        HE        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|  Uranus   |   gazeuse    |       H2        |        HE        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
-    cout << "|  Neptune  |   gazeuse    |       H2        |        HE        |" << endl;
-    cout << "-----------------------------------------------------------------" << endl;
+    cout << "+---------------------------------------------------------------+" << endl
+         << "|   Nom   |     Type     |  Gaz principal  |  Gaz secondaire  |" << endl
+         << "|---------------------------------------------------------------|" << endl
+         << "| Mercure | tellurique   | -               |        -         |" << endl
+         << "| Vénus   | tellurique   | CO2             |        N2        |" << endl
+         << "| Terre   | tellurique   | N2              |        O2        |" << endl
+         << "| Mars    | tellurique   | CO2             |        N2        |" << endl
+         << "| Jupiter   | gazeuse      | H2              |        HE        |" << endl
+         << "| Saturne   | gazeuse      | H2              |        HE        |" << endl
+         << "| Uranus    | gazeuse      | H2              |        HE        |" << endl
+         << "| Neptune   | gazeuse      | H2              |        HE        |" << endl
+         << "+---------------------------------------------------------------+" << endl;
     return 0;
 }

@@ -1,0 +1,12 @@
+1. demander à l'utilisateur le solde initial du compte en francs
+	a. si la valeur n'est pas un réel positif ou nul, on recommence
+2. demander à l'utilisateur le taux d'intérêt annuel en pourcent
+	a. si la valeur n'est pas un réel positif ou nul et inférieur ou égal à 100, on recommence
+3. demander à l'utilisateur le montant dépensé chaque mois en francs
+	a. si la valeur n'est pas un réel positif ou nul, on recommence
+4. tant que le solde du compte est supérieur ou égal à zéro
+	a. calculer le montant retiré : montantRetire = (soldeCompte/(100/tauxInteret))/12 + montantDepense
+	b. retirer le montant du solde : soldeCompte - montantRetire
+	c. incrémenter le compteur : nbMois++
+5. lorsque le solde est inférieur a zéro
+	a. retourner nbMois
